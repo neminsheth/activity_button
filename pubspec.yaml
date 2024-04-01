@@ -1,7 +1,7 @@
 name: activity_button
 description: A package for creating activity buttons with image and text.
 version: 1.0.0
-homepage:
+homepage: https://github.com/neminsheth/activity_button.git
 
 environment:
   sdk: '>=2.19.6 <3.0.0'
