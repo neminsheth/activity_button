@@ -12,7 +12,7 @@ class ActivityButton extends StatelessWidget {
   /// The path to the image asset used in this button.
   final String imagePath;
 
-  /// The callback function called when the button is tapped.
+  // The callback function called when the button is tapped.
   final Function() onTap;
 
   /// The width ratio used to adjust the size of the button.
@@ -66,12 +66,13 @@ class ActivityButton extends StatelessWidget {
                           fit: BoxFit.contain,
                         ),
                       ),
-                      const SizedBox(height: 5),
+                      const SizedBox(height: 1), // Added 1 pixel separator
                       Text(
                         title,
                         textAlign: TextAlign.center,
                         style: const TextStyle(
                           fontFamily: 'Poppins',
+                          ///The font used here is the poppins font, user can change it according to them.
                           fontSize: 12,
                           fontWeight: FontWeight.bold,
                         ),
