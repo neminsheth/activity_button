@@ -9,8 +9,10 @@ class ExamplePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final Size size = MediaQuery.of(context).size;
-    final double widthRatio = size.width / 390.0; // Assuming original width is 390.0
-    final double heightRatio = size.height / 900.0; // Assuming original height is 900.0
+    final double widthRatio =
+        size.width / 390.0; // Assuming original width is 390.0
+    final double heightRatio =
+        size.height / 900.0; // Assuming original height is 900.0
 
     return Scaffold(
       appBar: AppBar(

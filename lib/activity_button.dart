@@ -72,6 +72,7 @@ class ActivityButton extends StatelessWidget {
                         textAlign: TextAlign.center,
                         style: const TextStyle(
                           fontFamily: 'Poppins',
+
                           ///The font used here is the poppins font, user can change it according to them.
                           fontSize: 12,
                           fontWeight: FontWeight.bold,
