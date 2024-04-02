@@ -2,13 +2,31 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
+/// A widget representing an activity button with an image and text.
+///
+/// This widget can be used to display an activity with an image and text below it.
 class ActivityButton extends StatelessWidget {
+  /// The title text displayed below the image.
   final String title;
+
+  /// The path to the image asset used in this button.
   final String imagePath;
+
+  /// The callback function called when the button is tapped.
   final Function() onTap;
+
+  /// The width ratio used to adjust the size of the button.
   final double widthRatio;
+
+  /// The height ratio used to adjust the size of the button.
   final double heightRatio;
 
+  /// Creates a new [ActivityButton] widget.
+  ///
+  /// The [title] is the text displayed below the image.
+  /// The [imagePath] is the path to the image asset.
+  /// The [onTap] is the callback function called when the button is tapped.
+  /// The [widthRatio] and [heightRatio] are used to adjust the size of the button.
   const ActivityButton({
     required this.title,
     required this.imagePath,
