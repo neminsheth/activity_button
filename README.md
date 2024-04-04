@@ -1,6 +1,7 @@
 ## Activity Button
 
 A customizable widget for creating activity buttons with an image and text.
+(Refer to the example image given.)
 
 ## Features
 
